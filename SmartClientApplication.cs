@@ -34,7 +34,7 @@ namespace Sonova.Tcs.Infrastructure.Library
             base.AddServices();
 
             // use custom Profile Catalog
-            ProfileCatalogModuleInfoStore infoStore = RootWorkItem.Services.AddNew<ProfileCatalogModuleInfoStory, IModuleInfoStore>();
+            ProfileCatalogModuleInfoStore infoStore = RootWorkItem.Services.AddNew<ProfileCatalogModuleInfoStory, IMo>();
             if (ProfileCatalogFileName != null)
             {
                 infoStore.CatalogFilePath = ProfileCatalogFileName;
