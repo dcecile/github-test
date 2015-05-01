@@ -42,7 +42,7 @@ namespace Sonova.Tcs.Infrastructure.Library
 
             RootWorkItem.Services.AddNew<WorkspaceLocatorService, IWorkspaceLocatorService>();
             RootWorkItem.Services.Remove<IModuleEnumerator>();
-            RootWorkItem.Services.AddNew<XmlStreamDependentModuleEnumerator, IModuleEnumerator>();
+            RootWorkItem.Services.AddNew<XmlStreamDependentModuleEnumerator, IModuleEnumerator>();;
             RootWorkItem.Services.AddNew<DependentModuleLoaderService, IModuleLoaderService>();
             RootWorkItem.Services.AddOnDemand<ActionCatalogService, IActionCatalogService>();
             RootWorkItem.Services.AddOnDemand<EntityTranslatorService, IEntityTranslatorService>();

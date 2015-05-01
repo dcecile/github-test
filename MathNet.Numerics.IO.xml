@@ -622,7 +622,6 @@
             <summary>
             Gets the sparse data array.
             </summary>
-            <param name="matrix">The matrix to get the data from.</param>
             <returns>The matrix data as an array.</returns>
         </member>
         <member name="M:MathNet.Numerics.LinearAlgebra.IO.MatlabMatrixWriter.WriteCompressedData(System.Byte[])">
@@ -857,7 +856,7 @@
             Matrices in a matlab file stored as 1-D arrays
             </summary>
         </member>
-        <member name="P:MathNet.Numerics.LinearAlgebra.IO.Matlab.MatlabFile`1.HeaderText">
+        <member name="P:MathNet.Numerics.LinearAlgebra.IO.MatlabFile`1.HeaderText">
             <summary>
             Gets or sets the header text.
             </summary>
@@ -1034,7 +1033,7 @@
             </summary>
             <param name="type">The Matlab data type.</param>
             <param name="reader">The reader to read from.</param>
-            <param name="isComplex">if set to <c>true</c> if the Matlab complex flag is set.</param>
+            <param name="isComplex">if set to <c>true</c> if the Matlab complex flag set.</param>
             <param name="rows">The number of rows.</param>
             <param name="columns">The number of columns.</param>
             <param name="size">The length of the stored data.</param>
